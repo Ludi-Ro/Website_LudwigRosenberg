@@ -1,5 +1,4 @@
 import { useState } from "react";
-import './style/ImageGrid.css'
 
 import artImg0 from './assets/art0.jpg'
 import artImg1 from './assets/art1.jpg'

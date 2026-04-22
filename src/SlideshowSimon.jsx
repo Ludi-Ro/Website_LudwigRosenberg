@@ -1,5 +1,4 @@
 import { useState } from "react";
-import './style/Slideshow.css'
 
 import arduino0Img from './assets/arduino0.jpg'
 import arduino1Img from './assets/arduino1.PNG'

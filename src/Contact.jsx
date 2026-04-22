@@ -1,4 +1,3 @@
-import './style/Contact.css'
 import ContactForm from './ContactForm.jsx'
 
 function Contact() {

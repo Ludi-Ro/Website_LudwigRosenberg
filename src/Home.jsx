@@ -1,5 +1,3 @@
-import './style/Home.css'
-
 import mindFlexImg from './assets/mindFlex.jpg'
 import maskImg from './assets/mask.jpg'
 

@@ -1,4 +1,3 @@
-import './style/Toolbar.css'
 import { NavLink } from "react-router-dom";
 
 function Toolbar() {

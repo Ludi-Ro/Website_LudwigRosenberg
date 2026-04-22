@@ -1,5 +1,3 @@
-import './style/Art.css'
-
 import ImageGrid from "./ImageGrid.jsx";
 
 function Art() {

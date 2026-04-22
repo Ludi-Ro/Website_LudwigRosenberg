@@ -1,5 +1,4 @@
 import { useState } from "react";
-import './style/Slideshow.css'
 
 import eeg0Img from './assets/eeg0.jpg'
 import eeg1Img from './assets/eeg1.PNG'

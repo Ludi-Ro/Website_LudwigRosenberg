@@ -1,6 +1,15 @@
 import { useState } from 'react'
 import { Routes, Route } from "react-router-dom";
 import './style/App.css'
+import './style/About.css'
+import './style/Art.css'
+import "./style/Coding.css"
+import './style/Contact.css'
+import './style/ContactForm.css'
+import './style/Home.css'
+import './style/ImageGrid.css'
+import './style/Slideshow.css'
+import './style/Toolbar.css'
 
 import bannerImg from './assets/banner.jpg'
 import Toolbar from './Toolbar.jsx'

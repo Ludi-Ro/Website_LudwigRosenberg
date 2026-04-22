@@ -1,5 +1,3 @@
-import './style/About.css'
-
 import profileImg from './assets/profile.jpeg'
 
 function About() {

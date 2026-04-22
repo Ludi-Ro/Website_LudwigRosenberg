@@ -1,5 +1,4 @@
 import { useState } from "react";
-import './style/Slideshow.css'
 
 import launchpad0Img from './assets/launchpad0.jpg'
 import launchpad1Img from './assets/launchpad1.jpg'

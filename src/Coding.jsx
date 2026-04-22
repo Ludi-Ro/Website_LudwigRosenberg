@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./style/Coding.css";
 
 import SlideshowTetris from "./SlideshowTetris.jsx";
 import SlideshowSimon from "./SlideshowSimon.jsx";
