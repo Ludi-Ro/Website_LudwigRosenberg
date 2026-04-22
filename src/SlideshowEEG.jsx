@@ -2,9 +2,9 @@ import { useState } from "react";
 import './style/Slideshow.css'
 
 import eeg0Img from './assets/eeg0.jpg'
-import eeg1Img from './assets/eeg1.png'
-import eeg2Img from './assets/eeg2.png'
-import eeg3Img from './assets/eeg3.png'
+import eeg1Img from './assets/eeg1.PNG'
+import eeg2Img from './assets/eeg2.PNG'
+import eeg3Img from './assets/eeg3.PNG'
 
 function SlideshowEEG() {
   const images = [

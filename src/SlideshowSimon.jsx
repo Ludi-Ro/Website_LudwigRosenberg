@@ -2,9 +2,9 @@ import { useState } from "react";
 import './style/Slideshow.css'
 
 import arduino0Img from './assets/arduino0.jpg'
-import arduino1Img from './assets/arduino1.png'
-import arduino2Img from './assets/arduino2.png'
-import arduino3Img from './assets/arduino3.png'
+import arduino1Img from './assets/arduino1.PNG'
+import arduino2Img from './assets/arduino2.PNG'
+import arduino3Img from './assets/arduino3.PNG'
 
 function SlideshowSimon() {
   const images = [

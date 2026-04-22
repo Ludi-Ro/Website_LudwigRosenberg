@@ -9,11 +9,11 @@ import launchpad0Img from "./assets/launchpad0.jpg";
 import launchpad1Img from "./assets/launchpad1.jpg";
 import launchpad2Img from "./assets/launchpad2.jpeg";
 import arduino0Img from "./assets/arduino0.jpg";
-import arduino1Img from "./assets/arduino1.png";
-import arduino2Img from "./assets/arduino2.png";
+import arduino1Img from "./assets/arduino1.PNG";
+import arduino2Img from "./assets/arduino2.PNG";
 import eeg0Img from "./assets/eeg0.jpg";
-import eeg1Img from "./assets/eeg1.png";
-import eeg2Img from "./assets/eeg2.png";
+import eeg1Img from "./assets/eeg1.PNG";
+import eeg2Img from "./assets/eeg2.PNG";
 
 function Coding() {
   const [activeSlideshow, setActiveSlideshow] = useState(null);
