@@ -1,0 +1,80 @@
+.coding-container {
+  background-color: white;
+}
+
+.intro {
+  text-align: center;
+}
+
+.coding-section {
+  display: flex;
+  align-items: center;
+  gap: 2.15rem;
+  padding: 2.5rem;
+  background-color: white;
+}
+
+.beige-section {
+  background-color: #f5f5dc;
+}
+
+/* Image stack */
+.image-stack {
+  position: relative;
+  cursor: pointer;
+}
+
+.image-stack img {
+  position: relative;
+  z-index: 3;
+  display: block;
+  width: 15.6rem;
+  border-radius: 0.6rem;
+}
+
+/* background layers */
+.image-stack::before,
+.image-stack::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  border-radius: 0.6rem;
+}
+
+/* left */
+.image-stack::before {
+  background-image: var(--img-left);
+  transform: rotate(-6deg) translateX(-0.8rem) scale(0.95);
+  z-index: 1;
+}
+
+/* right */
+.image-stack::after {
+  background-image: var(--img-right);
+  transform: rotate(6deg) translateX(0.8rem) scale(0.95);
+  z-index: 2;
+}
+
+.image-stack:hover::before {
+  transform: rotate(-9deg) translateX(-0.83rem);
+}
+
+.image-stack:hover::after {
+  transform: rotate(9deg) translateX(0.83rem);
+}
+
+/* Lightbox */
+.coding-lightbox{
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.3s ease;
+  z-index: 1000;
+}

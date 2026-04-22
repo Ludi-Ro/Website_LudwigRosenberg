@@ -1,0 +1,70 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 94%;
+  margin: 0 auto;
+}
+
+.grid-item {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.grid-item:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* Lightbox */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  animation: fadeIn 0.3s ease;
+  cursor: pointer;
+}
+
+/* wrapper */
+.lightbox-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* image */
+.lightbox img {
+  max-height: 80vh;
+}
+
+/* caption */
+.lightbox-caption {
+  margin-top: 0.5rem;
+  margin-left: 0.3rem;
+  color: white;
+  font-size: 1.2rem;
+}

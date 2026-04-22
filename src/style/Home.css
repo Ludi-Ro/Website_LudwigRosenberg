@@ -1,0 +1,22 @@
+.section {
+  display: flex;
+  align-items: center;
+  padding: 3rem 15%;
+}
+
+/* images */
+.section img {
+  width: 40%;
+  aspect-ratio: 6 / 7;
+  object-fit: cover;
+}
+
+/* text */
+.text {
+  padding: 0rem 1rem;
+  font-size: 1.2rem;
+}
+
+.section:last-child {
+    background-color: white;
+}

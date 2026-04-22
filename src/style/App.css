@@ -1,0 +1,32 @@
+.header-image {
+  aspect-ratio: 11 / 1;
+  overflow: hidden;
+}
+
+.header-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5dc; /* beige */
+}
+
+.footer {
+  padding: 1rem;
+  color: #bbb;
+  text-align: center;
+  background-color: #222;
+}
+
+/* fade animation for lightbox */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

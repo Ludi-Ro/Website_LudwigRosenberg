@@ -1,0 +1,24 @@
+.toolbar {
+  width: 100%;
+  background-color: #222;
+
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem 4%;
+  gap: 2.5rem;
+}
+
+.toolbar a {
+  color: white;
+  text-decoration: none;
+  color: #bbb;
+  transition: color 0.25s ease, border-bottom 0.25s ease;
+}
+
+.toolbar a:hover {
+  color: white;
+}
+
+.toolbar a.active {
+  color: white;
+  border-bottom: 0.1rem solid white;

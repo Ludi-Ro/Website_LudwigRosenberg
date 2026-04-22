@@ -1,0 +1,26 @@
+.about-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+/* image */
+.about-section img {
+  width: 16rem;
+  height: 16rem;
+  margin: 0 0 0 3rem;
+  object-fit: cover;
+  border-radius: 50%; /* circular image*/
+}
+
+/* text */
+.description {
+  max-width: 35rem;
+}

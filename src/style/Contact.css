@@ -1,0 +1,35 @@
+.contact-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* layout */
+.contact-content {
+  display: flex;
+  gap: 3rem;
+  margin: 0 11rem;
+}
+
+/* left side */
+.contact-text {
+  margin-top: 4.5rem;
+}
+
+/* right side*/
+.contact-form-wrapper {
+  padding: 1.5rem 0;
+  flex: 2;
+}
+
+/* make form elements bigger */
+.contact-form-wrapper input,
+.contact-form-wrapper textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+/* bigger textarea */
+.contact-form-wrapper textarea {
+  min-height: 10rem;
+}
