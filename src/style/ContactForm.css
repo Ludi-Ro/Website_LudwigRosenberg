@@ -4,23 +4,29 @@
   gap: 0.5rem;
 }
 
+.subject-input {
+    font-size: 1.2rem;
+}
+
 .message-wrapper {
   position: relative;
 }
 
 textarea {
   resize: none;
+  font-size: 1.2rem;
 }
 
 .char-count {
   position: absolute;
   bottom: 1.5rem;
   left: 0.4rem;
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   color: gray;
 }
 
 button {
   padding: 0.6rem;
   cursor: pointer;
+  font-size: 1.2rem;
 }

@@ -45,10 +45,8 @@ function Coding() {
         <div className="text-block">
           <h3>Tetris on Launchpad</h3>
           <p>Launchpads are usually found in the music industry to produce and
-          perform music. <br />
-          This project allows you to play Tetris on a Launchpad,
-          using the glowing buttons as <br />
-          input and display  for blocks and your personal score.</p>
+          perform music. This project allows you to play Tetris on a Launchpad, <br />
+          using the glowing buttons as input and display  for blocks and your personal score.</p>
         </div>
       </div>
 
@@ -66,8 +64,8 @@ function Coding() {
 
         <div className="text-block">
           <h3>Arduino meets Simon</h3>
-          <p>With an Arduino microcontroller, I was able to recreate the cult classic Simon <br />
-          using a small buzzer and four different colored LEDs. The game is controlled <br />
+          <p>With an Arduino microcontroller, I was able to recreate the cult classic Simon
+          using a small buzzer and four different colored LEDs. <br /> The game is controlled
           by keyboard, an additional UI shows achieved score and the previous record.</p>
         </div>
       </div>
@@ -86,10 +84,9 @@ function Coding() {
 
         <div className="text-block">
           <h3>Reading Brainwaves</h3>
-          <p>The latest project uses an EEG-Headband connected to an Arduino microcontroller. <br />
-          This allows the user to read their own Brainwaves.
-          To visualize this, a simple Avatar <br />
-          was created in Unity to showcase how concentrated / relaxed the user is.</p>
+          <p>The latest project uses an EEG-Headband connected to an Arduino microcontroller.
+          This allows the user to read their own Brainwaves. <br />
+          To visualize this, a simple Avatar was created in Unity to showcase how concentrated / relaxed the user is.</p>
         </div>
       </div>
 

@@ -8,22 +8,23 @@
   display: flex;
   align-items: center;
   gap: 3rem;
+  margin-left: 2rem;
   margin-top: 2rem;
 }
 
 /* image */
 .about-section img {
-  max-width: 30%;
+  max-width: 25%;
   width: 100%;
   aspect-ratio: 1 / 1;
-  margin: 0 0 0 3rem;
+  margin: 0 3rem 0 3rem;
   object-fit: cover;
   border-radius: 50%; /* circular image*/
 }
 
 /* text */
 .description {
-  max-width: 35rem;
+  max-width: 60rem;
 }
 
 /*-------------------

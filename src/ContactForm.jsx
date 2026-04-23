@@ -21,7 +21,7 @@ function ContactForm() {
       {/* Subject */}
       <input
         type="text"
-        placeholder="Betreff"
+        placeholder="Subject"
         value={subject}
         onChange={(e) => setSubject(e.target.value)}
         className="subject-input"
@@ -30,7 +30,7 @@ function ContactForm() {
       {/* Message */}
       <div className="message-wrapper">
         <textarea
-          placeholder="Nachricht..."
+          placeholder="Message..."
           maxLength={maxLength}
           value={message}
           onChange={(e) => setMessage(e.target.value)}

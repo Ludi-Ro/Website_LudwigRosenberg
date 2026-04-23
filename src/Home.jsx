@@ -18,8 +18,8 @@ function Home() {
         <img src={maskImg} alt="" />
         <div className="text">
             <h3>Creative Mind</h3>
-            <p>I like to make art in my free time. <br /> Mostly by painting with acrylic colors, <br />
-            but using clay or wood is almost always <br /> just as exciting!</p>
+            <p>I like to make art in my free time. Mostly by painting with acrylic colors, <br />
+            but using clay or wood is almost always just as exciting!</p>
         </div>
     </div>
   </div>

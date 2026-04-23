@@ -17,11 +17,11 @@
 
 /* right side*/
 .contact-form-wrapper {
-  padding: 1.5rem 0;
+  padding: 1.5rem 2.5rem;
   flex: 2;
 }
 
-/* make form elements bigger */
+/* form elements */
 .contact-form-wrapper input,
 .contact-form-wrapper textarea {
   width: 100%;
@@ -29,9 +29,9 @@
   margin-bottom: 1rem;
 }
 
-/* bigger textarea */
+/* textarea */
 .contact-form-wrapper textarea {
-  min-height: 10rem;
+  min-height: 19rem;
 }
 
 /*-------------------
