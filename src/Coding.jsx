@@ -45,7 +45,7 @@ function Coding() {
         <div className="text-block">
           <h3>Tetris on Launchpad</h3>
           <p>Launchpads are usually found in the music industry to produce and
-          perform music. This project allows you to play Tetris on a Launchpad, <br />
+          perform music. <br /> This project allows you to play Tetris on a Launchpad,
           using the glowing buttons as input and display  for blocks and your personal score.</p>
         </div>
       </div>
