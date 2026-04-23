@@ -1,57 +1,33 @@
-/* ========================= */
-/* ABOUT CONTAINER */
-/* ========================= */
-
 .about-container {
   width: 100%;
   min-height: 100vh;
   background-color: white;
-
-  padding: clamp(1.5rem, 5vw, 4rem);
-  max-width: 90rem;
-  margin: 0 auto;
 }
-
-/* ========================= */
-/* SECTION */
-/* ========================= */
 
 .about-section {
   display: flex;
   align-items: center;
-
-  gap: clamp(1.5rem, 4vw, 3rem);
+  gap: 3rem;
   margin-top: 2rem;
 }
 
-/* ========================= */
-/* IMAGE */
-/* ========================= */
-
+/* image */
 .about-section img {
-  width: clamp(10rem, 20vw, 16rem);
-  height: clamp(10rem, 20vw, 16rem);
-
-  margin-left: clamp(0rem, 4vw, 3rem);
-
+  max-width: 30%;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  margin: 0 0 0 3rem;
   object-fit: cover;
-  border-radius: 50%;
-  flex-shrink: 0;
+  border-radius: 50%; /* circular image*/
 }
 
-/* ========================= */
-/* TEXT */
-/* ========================= */
-
+/* text */
 .description {
   max-width: 35rem;
-  line-height: 1.5;
 }
 
-/* ========================= */
-/* MOBILE */
-/* ========================= */
-
+/*-------------------
+/* Mobile */
 @media (max-width: 48rem) {
   .about-section {
     flex-direction: column;

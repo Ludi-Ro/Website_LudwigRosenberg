@@ -78,3 +78,23 @@
   animation: fadeIn 0.3s ease;
   z-index: 1000;
 }
+
+/*-------------------
+/* Mobile */
+@media (max-width: 48rem) {
+
+  .coding-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-stack::before,
+  .image-stack::after {
+    display: none;
+  }
+
+  .image-stack img {
+    width: 100%;
+    max-width: 16rem;
+  }
+}
