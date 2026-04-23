@@ -20,3 +20,23 @@
 .section:last-child {
     background-color: white;
 }
+
+/*-------------------
+/* Mobile */
+@media (max-width: 48rem) {
+
+  .section {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1.5rem;
+  }
+
+  .section img {
+    width: 100%;
+    max-width: 18rem;
+  }
+
+  .text {
+    padding: 1rem 0;
+  }
+}
