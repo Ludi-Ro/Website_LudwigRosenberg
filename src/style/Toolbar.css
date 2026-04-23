@@ -18,15 +18,3 @@
 .toolbar a:hover {
   color: white;
 }
-
-.toolbar a.active {
-  color: white;
-  border-bottom: 0.1rem solid white;
-
-@media (max-width: 48rem) {
-  .toolbar {
-    gap: 1rem;
-    padding: 0.3rem 2%;
-    font-size: 0.85rem;
-  }
-}
