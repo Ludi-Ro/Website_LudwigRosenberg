@@ -33,3 +33,22 @@
 .contact-form-wrapper textarea {
   min-height: 10rem;
 }
+
+/*-------------------
+/* Mobile */
+@media (max-width: 48rem) {
+
+  .contact-content {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .contact-text {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .contact-form-wrapper {
+    width: 100%;
+  }
+}
