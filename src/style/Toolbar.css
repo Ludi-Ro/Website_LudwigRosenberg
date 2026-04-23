@@ -22,3 +22,13 @@
 .toolbar a.active {
   color: white;
   border-bottom: 0.1rem solid white;
+
+.toolbar {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 48rem) {
+  .toolbar {
+    gap: 1rem;
+  }
+}
