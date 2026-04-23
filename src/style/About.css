@@ -14,10 +14,10 @@
 
 /* image */
 .about-section img {
-  max-width: 25%;
+  max-width: 28%;
   width: 100%;
   aspect-ratio: 1 / 1;
-  margin: 0 3rem 0 3rem;
+  margin: 0 2rem 0 3rem;
   object-fit: cover;
   border-radius: 50%; /* circular image*/
 }
