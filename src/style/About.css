@@ -33,6 +33,7 @@
   .about-section {
     flex-direction: column;
     text-align: center;
+    align-items: center;
   }
 
   .about-section img {
