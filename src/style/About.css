@@ -27,7 +27,7 @@
   max-width: 60rem;
 }
 
-/*------------------
+/*-------------------
 /* Mobile */
 @media (max-width: 48rem) {
   .about-section {
@@ -35,3 +35,4 @@
     text-align: center;
     margin-left: 0;
   }
+}
